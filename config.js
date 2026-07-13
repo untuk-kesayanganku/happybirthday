@@ -27,7 +27,7 @@
 
 const CONFIG = {
   // ── Recipient Info ────────────────────────────────────────────
-  name: "Irene",
+  name: "Gembengku",
   photo: "./img/irene.jpg",       // Place your photo in the img/ folder
   music: "./music/hbd.mpeg",      // Place your music in the music/ folder
 
@@ -55,8 +55,8 @@ const CONFIG = {
   sections: [
     {
       type: "greeting",
-      title: "Hi",
-      subtitle: "I really like your name btw!",
+      title: "Hai Gembengku",
+      subtitle: "Aku beruntung banget bisa milikin kamu... ❤️",
     },
     {
       type: "countdown",
@@ -65,29 +65,29 @@ const CONFIG = {
     },
     {
       type: "announcement",
-      text: "It's your birthday!! :D",
+      text: "Hari ini adalah hari ulang tahunmu yang ke-18!! ✨",
     },
     {
       type: "chatbox",
       message:
-        "Happy birthday to youu!! Wishing you a wonderful year ahead filled with joy, love, and endless happiness!",
-      buttonText: "Send",
+        "Selamat ulang tahun yang ke-18 untuk orang favoritku, alasan di balik senyumanku setiap hari. Terima kasih ya sudah lahir ke dunia dan membawa banyak sekali kebahagiaan di hidupku. I love you so much, now and always. 💖",
+      buttonText: "Kirim 💌",
     },
     {
       type: "ideas",
       lines: [
-        "That's what I was going to do.",
-        "But then I stopped.",
-        "I realised, I wanted to do something <strong>special</strong>.",
-        "Because,",
-        "You are Special <span>:)</span>",
+        "Awalnya aku bingung mau ngasih kado apa...",
+        "Tapi aku sadar,",
+        "Aku mau bikin sesuatu yang <strong>spesial</strong>.",
+        "Karena di umur yang ke-18 ini,",
+        "Kamu tetap orang paling spesial di hidupku <span>🥰</span>",
       ],
-      bigLetters: "SO",
+      bigLetters: "18",
     },
     {
       type: "quote",
-      text: "The more you praise and celebrate your life, the more there is in life to celebrate.",
-      author: "Oprah Winfrey",
+      text: "Aku mencintaimu bukan hanya karena siapa dirimu, tetapi karena menjadi apa aku ketika aku bersamamu.",
+      author: "Untuk Pacarku Tercinta",
     },
     {
       type: "stars",
@@ -99,8 +99,8 @@ const CONFIG = {
     },
     {
       type: "profile",
-      wishTitle: "Happy Birthday!",
-      wishText: "May the js.prototypes always be with you! ;)",
+      wishTitle: "Happy 18th Birthday, Sayang!",
+      wishText: "Semoga di usia 18 tahun ini, kamu selalu dilimpahi kebahagiaan, kesehatan, dan semua impianmu terwujud. Tetap sama-sama terus ya kita? ✨",
     },
     {
       type: "fireworks",
@@ -112,8 +112,8 @@ const CONFIG = {
     },
     {
       type: "closing",
-      text: "Okay, now come back and tell me if you liked it.",
-      replayText: "Or click, if you want to watch it again.",
+      text: "Makasih ya udah nonton sampai habis. Jangan lupa kabari aku kalau kamu suka! HBD yang ke-18 Gembengku! ❤️",
+      replayText: "Klik di sini kalau mau nonton animasinya lagi.",
     },
   ],
 };
