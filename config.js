@@ -1,16 +1,9 @@
-/**
- * ✨ EDIT THIS FILE to customize the birthday greeting! ✨
- *
- * This is the ONLY file you need to modify.
- * No need to touch HTML, CSS, or any other JavaScript files.
- */
-
 const CONFIG = {
   // ── Recipient Info ────────────────────────────────────────────
   name: "Gembengku",
   photo: "./img/irene.jpg",
-  // Lagu sudah diarahkan ke file yang kamu upload
-  music: "./music/Backstreet Boys - Shape Of My Heart (Lyrics).mp3",
+  // Menggunakan link lagu yang lebih stabil
+  music: "https://files.catbox.moe/k3300y.mp3", 
 
   // ── Theme Colors ──────────────────────────────────────────────
   colors: {
