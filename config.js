@@ -9,8 +9,8 @@ const CONFIG = {
   // ── Recipient Info ────────────────────────────────────────────
   name: "Gembengku",
   photo: "./img/irene.jpg",
-  // Musik ini digunakan untuk testing apakah lagu bisa terputar
-  music: "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3",
+  // Lagu sudah diarahkan ke file yang kamu upload
+  music: "./music/Backstreet Boys - Shape Of My Heart (Lyrics).mp3",
 
   // ── Theme Colors ──────────────────────────────────────────────
   colors: {
