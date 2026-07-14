@@ -2,7 +2,8 @@ const CONFIG = {
   // ── Recipient Info ────────────────────────────────────────────
   name: "Gembengku",
   photo: "./img/irene.jpg",
-  music: "./music/hbd.mp3".
+  // Menggunakan file lagu asli kamu
+  music: "./music/Backstreet Boys - Shape Of My Heart (Lyrics).mp3",
 
   // ── Theme Colors ──────────────────────────────────────────────
   colors: {
@@ -40,7 +41,7 @@ const CONFIG = {
     {
       type: "chatbox",
       message:
-        "Hari ini kamu kelihatan makin gemes dan cantik bangeeet, tau gak? Honestly, of all the things my eyes have ever seen, you are my absolute favorite. Makasih ya udah selalu nemenin aku, dengerin random thoughts-ku, dan bikin hari-hariku jadi jauh lebih berwarna. Aku bersyukur banget bisa sayang dan pacaran sama kamu!",
+        "Selamat ulang tahun ya sayangku! Gak sabar banget pengen cepet-cepet ketemu kamu besok dan liat langsung cantiknya kamu. Honestly, of all the things my eyes have ever seen, you are my absolute favorite. Makasih ya udah selalu nemenin aku, dengerin random thoughts-ku, dan bikin hari-hariku jadi jauh lebih berwarna. Aku bersyukur banget bisa sayang dan pacaran sama kamu!",
       buttonText: "Ketik 'Kirim' yaaa",
     },
     {
