@@ -1,10 +1,38 @@
+/**
+ * ✨ EDIT THIS FILE to customize the birthday greeting! ✨
+ *
+ * This is the ONLY file you need to modify.
+ * No need to touch HTML, CSS, or any other JavaScript files.
+ *
+ * AVAILABLE SECTION TYPES:
+ *   "greeting"      → Opening greeting with recipient's name
+ *   "announcement"  → Birthday announcement text
+ *   "chatbox"       → Chat message with typing animation
+ *   "ideas"         → Sequential text reveals, one by one
+ *   "quote"         → Styled quote card with optional author
+ *   "countdown"     → Animated 3-2-1 countdown
+ *   "stars"         → Twinkling stars background
+ *   "fireworks"     → Colorful firework sparks burst
+ *   "balloons"      → Floating balloon animation
+ *   "profile"       → Profile photo with birthday wish
+ *   "confetti"      → Confetti burst animation
+ *   "closing"       → Closing message with replay button
+ *
+ * HOW TO USE:
+ *   REMOVE a section  → Delete its object from the sections array
+ *   DUPLICATE          → Copy-paste any section object
+ *   REORDER            → Move the section object up/down in the array
+ *   EDIT TEXT          → Change the string values
+ */
+
 const CONFIG = {
   // ── Recipient Info ────────────────────────────────────────────
   name: "Gembengku",
   photo: "./img/irene.jpg",       // Foto pacarmu di folder img
-  music: "https://raw.githubusercontent.com/sun-silences/music/master/Backstreet%20Boys%20-%20Shape%20Of%20My%20Heart.mp3",
+  music: "./music/hbd.mpeg",      // MENGGUNAKAN JALUR ASLI BIAR DIJAMIN BUNYI!
 
   // ── Theme Colors ──────────────────────────────────────────────
+  // A toggle button lets the viewer switch between dark & light mode.
   colors: {
     primary: "#f472b6",           // Main accent color (rose pink)
     accent: "#60a5fa",            // Secondary accent color (sky blue)
@@ -19,9 +47,11 @@ const CONFIG = {
   },
 
   // ── Default Color Mode ────────────────────────────────────────
+  // Options: "dark" or "light"
   defaultMode: "dark",
 
   // ── Sections ──────────────────────────────────────────────────
+  // Add, remove, duplicate, or reorder as you wish!
   sections: [
     {
       type: "greeting",
@@ -31,7 +61,7 @@ const CONFIG = {
     {
       type: "countdown",
       from: 3,                    // Hitung mundur
-      goText: "🎉",              
+      goText: "🎉",              // Teks setelah hitung mundur selesai
     },
     {
       type: "announcement",
