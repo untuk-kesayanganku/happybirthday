@@ -1,6 +1,6 @@
 const CONFIG = {
   // ── Recipient Info ────────────────────────────────────────────
-  name: "Gembengku",
+  name: "Irene",
   photo: "./img/irene.jpg",
   music: "./music/hbd.mpeg",
 
