@@ -2,7 +2,7 @@ const CONFIG = {
   // ── Recipient Info ────────────────────────────────────────────
   name: "Gembengku",
   photo: "./img/irene.jpg",
-  music: "https://files.catbox.moe/k3300y.mp3", 
+  music: "./music/hbd.mpeg",
 
   // ── Theme Colors ──────────────────────────────────────────────
   colors: {
