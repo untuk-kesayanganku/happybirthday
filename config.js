@@ -40,8 +40,9 @@ const CONFIG = {
     {
       type: "chatbox",
       message:
-        "Eits, tahan dulu! ✋ Sebelum kejutan ini terbuka, aku punya pertanyaan tes IQ buat kamu: Siapa manusia paling ganteng, paling tengil, dan paling sayang sama kamu di dunia ini? Hint: Jawabannya bukan artis Korea yaaa! 😂 Kalau udah tahu jawabannya, ketik 'Kirim' yaaa!",
-      buttonText: "Kirim",
+        "Eits, tahan dulu! ✋ Sebelum kejutan ini terbuka, jawab dulu: Siapa manusia paling ganteng, paling tengil, dan paling sayang sama kamu di dunia ini? (Hint: Jangan bohong ya! 😂)",
+      input: true,
+      buttonText: "Kirim Jawaban",
     },
     {
       type: "ideas",
