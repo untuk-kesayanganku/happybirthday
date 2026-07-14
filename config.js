@@ -1,8 +1,8 @@
 const CONFIG = {
   // ── Recipient Info ────────────────────────────────────────────
-  name: "Irene",
+  name: "Gembengku",
   photo: "./img/irene.jpg",
-  music: "./music/hbd.mpeg",
+  music: "./music/hbd.mp3".
 
   // ── Theme Colors ──────────────────────────────────────────────
   colors: {
