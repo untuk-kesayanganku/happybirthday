@@ -2,7 +2,7 @@ const CONFIG = {
   // — Recipient Info —————————————————————————————————————————————————
   name: "Gembengku",
   photo: "./img/irene.jpg",     // Foto pacarmu di folder img
-  music: "https://raw.githubusercontent.com/sun-silence/music/master/Backstreet%20Boys%20-%20Shape%20Of%20My%20Heart.mp3",
+  music: "https://raw.githubusercontent.com/sun-silences/music/master/Backstreet%20Boys%20-%20Shape%20Of%20My%20Heart.mp3",
 
   // — Theme Colors ——————————————————————————————————————————————————
   colors: {
