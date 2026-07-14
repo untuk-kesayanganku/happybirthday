@@ -9,8 +9,8 @@ const CONFIG = {
   // ── Recipient Info ────────────────────────────────────────────
   name: "Gembengku",
   photo: "./img/irene.jpg",
-  // Musik sudah diganti ke lagu Backstreet Boys yang kamu mau
-  music: "https://raw.githubusercontent.com/sun-silences/music/master/Backstreet%20Boys%20-%20Shape%20Of%20My%20Heart.mp3",
+  // Musik ini digunakan untuk testing apakah lagu bisa terputar
+  music: "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3",
 
   // ── Theme Colors ──────────────────────────────────────────────
   colors: {
