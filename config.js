@@ -59,13 +59,13 @@ const CONFIG = {
         "Makin bahagia, and please never change who you are.",
         "Sebab bagiku, kamu itu udah lebih dari cukup.",
         "Ingat ya, I'll always be here by your side,",
-        "Dukung kamu terus dalam segala hal...",
+        "Dukung kamu terus dalam segala hal...🫶🏻",
       ],
       bigLetters: "18",
     },
     {
       type: "quote",
-      text: "I love you more than words can say! Selamat ulang tahun buat orang favoritku, my safe place, and the one who holds my heart.",
+      text: "I love you more than words can say💗! Selamat ulang tahun buat orang favoritku, my safe place, and the one who holds my heart.",
       author: "Dari tengilmu yang selalu nyebelin",
     },
     {
