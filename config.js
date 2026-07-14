@@ -2,7 +2,6 @@ const CONFIG = {
   // ── Recipient Info ────────────────────────────────────────────
   name: "Gembengku",
   photo: "./img/irene.jpg",
-  // Menggunakan link lagu yang lebih stabil
   music: "https://files.catbox.moe/k3300y.mp3", 
 
   // ── Theme Colors ──────────────────────────────────────────────
@@ -27,22 +26,22 @@ const CONFIG = {
     {
       type: "greeting",
       title: "Hai Gembengku",
-      subtitle: "Cieee ada yang tambah umur nih... 😜",
+      subtitle: "Cieee ada yang tambah umur nih...",
     },
     {
       type: "countdown",
       from: 3,
-      goText: "🎉",
+      goText: "Mulai",
     },
     {
       type: "announcement",
-      text: "Selamat ulang tahun yaaa kesayanganku! ❤️",
+      text: "Selamat ulang tahun yaaa kesayanganku!",
     },
     {
       type: "chatbox",
       message:
-        "Hari ini kamu kelihatan makin gemes dan cantik bangeeet, tau gak? 😍 Honestly, of all the things my eyes have ever seen, you are my absolute favorite. Makasih ya udah selalu nemenin aku, dengerin random thoughts-ku, dan bikin hari-hariku jadi jauh lebih berwarna. Aku bersyukur banget bisa sayang dan pacaran sama kamu!",
-      buttonText: "Ketik 'Kirim' yaaa 💌",
+        "Hari ini kamu kelihatan makin gemes dan cantik bangeeet, tau gak? Honestly, of all the things my eyes have ever seen, you are my absolute favorite. Makasih ya udah selalu nemenin aku, dengerin random thoughts-ku, dan bikin hari-hariku jadi jauh lebih berwarna. Aku bersyukur banget bisa sayang dan pacaran sama kamu!",
+      buttonText: "Ketik 'Kirim' yaaa",
     },
     {
       type: "ideas",
@@ -52,14 +51,14 @@ const CONFIG = {
         "Makin bahagia, and please never change who you are.",
         "Sebab bagiku, kamu itu udah lebih dari cukup.",
         "Ingat ya, I'll always be here by your side,",
-        "Dukung kamu terus dalam segala hal... 🥰",
+        "Dukung kamu terus dalam segala hal...",
       ],
       bigLetters: "18",
     },
     {
       type: "quote",
-      text: "I love you more than words can say! 💕 Selamat ulang tahun buat orang favoritku, my safe place, and the one who holds my heart.",
-      author: "Dari tengilmu yang selalu nyebelin 😘",
+      text: "I love you more than words can say! Selamat ulang tahun buat orang favoritku, my safe place, and the one who holds my heart.",
+      author: "Dari tengilmu yang selalu nyebelin",
     },
     {
       type: "stars",
@@ -71,7 +70,7 @@ const CONFIG = {
     },
     {
       type: "profile",
-      wishTitle: "Happy Birthday, My Precious! 💖",
+      wishTitle: "Happy Birthday, My Precious!",
       wishText: "Semoga hari-hari kamu penuh tawa, always happy, and let's make more beautiful memories together. Tetap sama-sama terus ya kita!",
     },
     {
@@ -84,7 +83,7 @@ const CONFIG = {
     },
     {
       type: "closing",
-      text: "Sudah selesai dibaca semua kan? Sini balik lagi ke WhatsApp terus kasih tahu aku gimana perasaanmu sekarang! 😜",
+      text: "Sudah selesai dibaca semua kan? Sini balik lagi ke WhatsApp terus kasih tahu aku gimana perasaanmu sekarang!",
       replayText: "Atau klik tombol ini kalau kamu masih mau liat lagi.",
     },
   ],
