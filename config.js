@@ -1,7 +1,8 @@
 const CONFIG = {
   // ── Recipient Info ────────────────────────────────────────────
-  name: "Gembengku 😜",
+  name: "Gembengku",
   photo: "./img/irene.jpg",
+  // Menggunakan file lagu asli kamu
   music: "./music/Backstreet Boys - Shape Of My Heart (Lyrics).mp3",
 
   // ── Theme Colors ──────────────────────────────────────────────
@@ -25,41 +26,47 @@ const CONFIG = {
   sections: [
     {
       type: "greeting",
-      title: "CIEEE ADA YANG TUA! 😂",
-      subtitle: "Hai sayaaaang, eits... mau masuk harus jawab dulu!",
+      title: "Hai Gembengku",
+      subtitle: "Cieee ada yang tambah umur nih...",
     },
     {
       type: "countdown",
       from: 3,
-      goText: "💥 DUAR!",
+      goText: "Mulai",
     },
     {
       type: "announcement",
-      text: "Selamat ulang tahun ya Gembengku sayang! ❤️",
+      text: "Selamat ulang tahun yaaa kesayanganku! ❤️",
     },
     {
       type: "chatbox",
       message:
-        "Eits, tahan dulu! ✋ Sebelum kejutan ini terbuka, jawab dulu: Siapa manusia paling ganteng, paling tengil, dan paling sayang sama kamu di dunia ini? (Hint: Jangan bohong ya! 😂)",
+        "Eits, tahan dulu! ✋ Sebelum kejutan ini terbuka, jawab dulu pertanyaan ini: Siapa manusia paling ganteng dan paling tengil yang selalu sayang sama kamu? (Hint: Jangan bohong ya! 😂)",
       input: true,
       buttonText: "Kirim Jawaban",
     },
     {
+      type: "chatbox",
+      message:
+        "Selamat ulang tahun ya sayangku! Gak sabar banget pengen cepet-cepet ketemu kamu besok dan liat langsung cantiknya kamu. Honestly, of all the things my eyes have ever seen, you are my absolute favorite. Makasih ya udah selalu nemenin aku, dengerin random thoughts-ku, dan bikin hari-hariku jadi jauh lebih berwarna. Aku bersyukur banget bisa sayang dan pacaran sama kamu!",
+      buttonText: "Ketik 'Kirim' yaaa",
+    },
+    {
       type: "ideas",
       lines: [
-        "Woy gembeng! Selamat ulang tahun ya!",
-        "Gak sabar pen cepet-cepet ketemu kamu besok,",
-        "Pengen cubit pipi kamu yang gembul itu langsung!",
-        "Honestly, biarpun kamu kadang nyebelin,",
-        "Makasih ya udah selalu nemenin kegajean aku,",
-        "Tetap jadi Gembengku yang paling gemesin ya! 🥰",
+        "Di umur kamu yang baru ini...",
+        "Aku berdoa semoga kamu selalu sehat,",
+        "Makin bahagia, and please never change who you are.",
+        "Sebab bagiku, kamu itu udah lebih dari cukup.",
+        "Ingat ya, I'll always be here by your side,",
+        "Dukung kamu terus dalam segala hal...",
       ],
       bigLetters: "18",
     },
     {
       type: "quote",
-      text: "I love you to the moon and back! Biarpun aku tengil dan nyebelin, tapi hatiku cuma buat kamu, gembengku!",
-      author: "Dari pacarmu yang ganteng tapi gesrek 😎",
+      text: "I love you more than words can say! Selamat ulang tahun buat orang favoritku, my safe place, and the one who holds my heart.",
+      author: "Dari tengilmu yang selalu nyebelin",
     },
     {
       type: "stars",
@@ -71,8 +78,8 @@ const CONFIG = {
     },
     {
       type: "profile",
-      wishTitle: "Met Ultah, Cikubang! 💖",
-      wishText: "Semoga hari-hari kamu penuh tawa, unboxing kado banyak, dan makin sayang sama aku! Tetap gaje dan gemesin terus ya kita!",
+      wishTitle: "Happy Birthday, My Precious!",
+      wishText: "Semoga hari-hari kamu penuh tawa, always happy, and let's make more beautiful memories together. Tetap sama-sama terus ya kita!",
     },
     {
       type: "fireworks",
@@ -84,8 +91,8 @@ const CONFIG = {
     },
     {
       type: "closing",
-      text: "Udah selesai baca kegajean ini? Sini balik ke WhatsApp, kasih tau aku berapa kali kamu ketawa liat ginian! 😜",
-      replayText: "Atau klik tombol ini kalau masih mau liat lagi.",
+      text: "Sudah selesai dibaca semua kan? Sini balik lagi ke WhatsApp terus kasih tahu aku gimana perasaanmu sekarang!",
+      replayText: "Atau klik tombol ini kalau kamu masih mau liat lagi.",
     },
   ],
 };
