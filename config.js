@@ -1,27 +1,27 @@
 const CONFIG = {
-  // — Recipient Info —————————————————————————————————————————————————
+  // ── Recipient Info ────────────────────────────────────────────
   name: "Gembengku",
-  photo: "./img/irene.jpg",     // Foto pacarmu di folder img
+  photo: "./img/irene.jpg",       // Foto pacarmu di folder img
   music: "https://raw.githubusercontent.com/sun-silences/music/master/Backstreet%20Boys%20-%20Shape%20Of%20My%20Heart.mp3",
 
-  // — Theme Colors ——————————————————————————————————————————————————
+  // ── Theme Colors ──────────────────────────────────────────────
   colors: {
-    primary: "#f472b6",          // Main accent color (rose pink)
-    accent: "#60a5fa",           // Secondary accent color (sky blue)
+    primary: "#f472b6",           // Main accent color (rose pink)
+    accent: "#60a5fa",            // Secondary accent color (sky blue)
     dark: {
-      background: "#0f172a",     // Slate 900
-      text: "#f1f5f9",           // Slate 100
+      background: "#0f172a",      // Slate 900
+      text: "#f1f5f9",            // Slate 100
     },
     light: {
-      background: "#fafaf9",     // Stone 50
-      text: "#1e293b",           // Slate 800
+      background: "#fafaf9",      // Stone 50
+      text: "#1e293b",            // Slate 800
     },
   },
 
-  // — Default Color Mode ————————————————————————————————————————————
+  // ── Default Color Mode ────────────────────────────────────────
   defaultMode: "dark",
 
-  // — Sections ——————————————————————————————————————————————————————
+  // ── Sections ──────────────────────────────────────────────────
   sections: [
     {
       type: "greeting",
@@ -30,8 +30,8 @@ const CONFIG = {
     },
     {
       type: "countdown",
-      from: 3,                  // Hitung mundur
-      goText: "🎉",             
+      from: 3,                    // Hitung mundur
+      goText: "🎉",              
     },
     {
       type: "announcement",
@@ -39,7 +39,8 @@ const CONFIG = {
     },
     {
       type: "chatbox",
-      message: "Hari ini kamu kelihatan makin gemes dan cantik bangeeet, tau gak? 😍 Honestly, of all the things my eyes have ever seen, you are my absolute favorite. Makasih ya udah selalu nemenin aku, dengerin random thoughts-ku, dan bikin hari-hariku jadi jauh lebih berwarna. Aku bersyukur banget bisa sayang dan pacaran sama kamu!",
+      message:
+        "Hari ini kamu kelihatan makin gemes dan cantik bangeeet, tau gak? 😍 Honestly, of all the things my eyes have ever seen, you are my absolute favorite. Makasih ya udah selalu nemenin aku, dengerin random thoughts-ku, dan bikin hari-hariku jadi jauh lebih berwarna. Aku bersyukur banget bisa sayang dan pacaran sama kamu!",
       buttonText: "Ketik 'Kirim' yaaa 💌",
     },
     {
@@ -75,6 +76,15 @@ const CONFIG = {
     {
       type: "fireworks",
       count: 24,
-    }
-  ]
+    },
+    {
+      type: "confetti",
+      count: 9,
+    },
+    {
+      type: "closing",
+      text: "Sudah selesai dibaca semua kan? Sini balik lagi ke WhatsApp terus kasih tahu aku gimana perasaanmu sekarang! 😜",
+      replayText: "Atau klik tombol ini kalau kamu masih mau liat lagi.",
+    },
+  ],
 };
